@@ -1,0 +1,47 @@
+
+							<h1>数据故事</h1>
+				<section>
+									<h2>Image</h2>
+									<h3>Fit</h3>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12 content"><span class="image fit"><div>{{ word_1|safe }}</div></span></div>
+                                        <div class="col-12"><div class="card">由图可以看出，世界生育率整体上是处于平缓下降趋势。德国、西班牙等西欧国家一直以来处于低生育率，变化趋势不大；尼泊尔一直处于高生育率状态；索马里出生率则变化明显。这反映了世界劳动人口的变化趋势。中国生育率开始慢慢下降，呈现稳定的趋势，除了政策的原因，会不会与受教育程度相关呢？</div></div>
+                                            <div class="card-header bg-transparent"><form method="POST" name="form1" action="/jiaohu/1#word_2">
+                                                <select name="the_region_selected">
+                                                    {% for item in the_select_region %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key"  value='查询' type='SUBMIT'>
+                                            </form></div>
+                                            <div class="col-xl-10 container" id="word_2"><div class="center-block">{{ word_2|safe }}</div></div>
+											<div class="col-12"><span class="image fit">1960年到1966年，处于全面建设社会主义时期，人民的生活有了一定的改善，导致生育率逐年上升；然而1966-1976年，我国处于艰难的文革阶段，文革不仅影响了我国的政治和经济，还间接影响了我国的生育情况，导致生育率直线下降。1976年后，生育情况有所上升，但到1984年，城乡经济体制改革，再加上1982年的计划生育的影响，之后的生育情况一直趋于下降平缓趋势。</span></div>
+											<div class="col-12" id="word_3">{{ word_3|safe }}</div>
+                                            <div class="col-12"><span class="image fit">由图可以看出，学龄儿童入学率和小学的升学率变化趋势在2009年至2018年期间变化不大，基本处于高就学率，初中的升学率总体情况较好，但高中的升学率在2009年到2011年是比较低的，到2011年有所改观，但是数据到2016年就截止，国家统计局并未记录后两三年的数据，但预计仍然在上升的状态。
+                                            </span></div>
+
+                                            <div class="col-12" id="word_4">{{ word_4|safe }}</div>
+                                            <div class="col-12"><span class="image fit">
+                                            </span></div>
+                                            <div class="card-header bg-transparent">
+                                                <form method="POST" name="form2" action="/jiaohu/1">
+                                                <select name="the_region_selected_1">
+                                                    {% for item in the_select_region_1 %}
+                                                        <option value="{{ item }}">{{ item }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            <br>
+                                                <input name="key" value='查询' type='SUBMIT'>
+                                            </form></div>
+                                            <div class="col-12" id="word_5">{{ word_5|safe }}</div>
+                                            <div class="col-12"><span class="image fit">
+                                            </span></div>
+                                            <div class="col-12" id="word_5">{{ word_6|safe }}</div>
+                                            <div class="col-12"><span class="image fit">
+                                            </span></div>
+									</section>
+
+
+
